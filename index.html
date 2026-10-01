@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lumen Studio seasonal fashion collection.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Lumen Studio|Collections</title>
+</head>
+
+<body class="bg-stone-50 text-stone-900">
+    <header class="border-b border-stone-200 bg-stone-50">
+        <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
+            <a href="#top" class="text-2xl font-semibold tracking-[0.2em]">Lumen</a>
+            <nav aria-label="Primary navigation" class="hidden gap-8 text-sm font-medium md:flex">
+                <a href="#new-in"
+                    class=" px-3 py-1 border-2 hover:border-black text-black transition-all cursor-pointer">New in</a>
+                <a href="#collection"
+                    class="px-3 py-1 border-2 hover:border-black text-black transition-all cursor-pointer">Collection</a>
+                <a href="#journal"
+                    class="px-3 py-1 border-2 hover:border-black text-black transition-all cursor-pointer">Journal</a>
+            </nav>
+            <nav aria-label="Customer tools" class="flex items-center gap-4 text-sm">
+                <a href="#search" aria-label="Search the store"
+                    class="px-3 py-1 border-2 hover:border-black text-black transition-all cursor-pointer">Search<select></select></a>
+                <a href="#bag" aria-label="Shopping bag, 0 items"
+                    class="px-3 py-1 border-2 hover:border-black text-black transition-all cursor-pointer">Bag (0)</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="top">
+        <section aria-labelledby="hero-title"
+            class="mx-auto grid max-w-7xl gap-10 px-6 py-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:px-8 lg:py-20">
+            <div class="max-w-xl">
+                <p class="mb-5 text-xs font-bold uppercase tracking-[0.28em] text-amber-700">Autumn / Winter 2026</p>
+                <h1 id="hero-title" class="text-5xl leading-tight sm:text-6xl">Quiet confidence, beautifully made.</h1>
+                <p class="mt-6 max-w-md text-base leading-7 text-stone-600">Thoughtful layers and natural textures for
+                    the days that ask you to slow down.</p>
+                <a href="#collection"
+                    class="mt-8 inline-flex items-center border-b border-stone-900 pb-2 text-sm font-bold uppercase tracking-[0.16rem] transition-colors hover:border-amber-700 hover:text-amber-700">Explore
+                    the collection <span aria-hidden="true" class="ml-3">&rarr;</span></a>
+            </div>
+            <figure>
+                <img src="model-1-removebg-preview.png" class="w-60"
+                    alt="Model wearing a structured brown jacket and cream trousers in an airy studio">
+                <figcaption class="mt-3 text-xs uppercase tracking-[0.18em] text-stone-500">The September edit
+                    &middot;Look 01</figcaption>
+            </figure>
+
+        </section>
+
+        <section id="new-in" aria-labelledby="new-in-title" class="border-y border-stone-200 bg-white">
+
+            <div class="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+
+                <div class="mb-10 flex items-end justify-between gap-6">
+                    <div>
+                        <p class="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-amber-700">Just arrived</p>
+                        <h2 id="new-in-title" class="text-4xl">New in</h2>
+                    </div>
+                    <a href="#collection"
+                        class="hidden text-sm font-semibold underline underline-offset-4 md:block">View all pieces</a>
+                </div>
+
+                <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                    <article class="group">
+                        <a href="#product-cotton-shirt" class="block" aria-label="View the Essential Cotton Shirt"><img
+                                src="cloth-1.jpg" alt="White cotton shirt hanging against a neutral wall"
+                                class="aspect-[4/5] w-full object-cover transition-opacity duration-300 group-hover:opacity-80 float">
+                        </a>
+
+                        <div class="mt-4 flex justify-between gap-4">
+                            <div>
+                                <h3 id="product-cotton-shirt" class="text-xl">Essential Cotton Shirt</h3>
+                                <p class="mt-1 text-sm text-stone-500">Organic cotton &middot; White</p>
+                            </div>
+                            <p class="text-sm font-semibold">$145</p>
+                        </div>
+
+                    </article>
+
+                    <article class="group">
+                        <a href="#product-knit" class="block" aria-label="View the Fine Knit Cardigan"><img
+                                src="cloth-2.jpg" alt="Cream knit cardigan folded on a wooden surface"
+                                class="aspect-[4/5] w-full object-cover transition-opacity duration-300 group-hover:opacity-80 float"></a>
+                        <div class="mt-4 flex justify-between gap-4">
+                            <div>
+                                <h3 id="product-knit" class="text-xl">Fine Knit Cardigan</h3>
+                                <p class="mt-1 text-sm text-stone-500">Merino wool &middot; Oat</p>
+                            </div>
+                            <p class="text-sm font-semibold">$220</p>
+                        </div>
+                    </article>
+
+                    <article class="group">
+                        <a href="#product-trouser" class="block" aria-label="View the Wide Leg Trouser"><img
+                                src="cloth-3.jpg" alt="Tailored charcoal armless shirt on a model"
+                                class="aspect-[4/5] w-full object-cover transition-opacity duration-300 group-hover:opacity-80 float"></a>
+                        <div class="mt-4 flex justify-between gap-4">
+                            <div>
+                                <h3 id="product-trouser" class="text-xl">Wide Leg Trouser</h3>
+                                <p class="mt-1 text-sm text-stone-500">Recycled wool &middot; Charcoal</p>
+                            </div>
+                            <p class="text-sm font-semibold">$190</p>
+                        </div>
+
+                    </article>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="collection" aria-labelledby="collection-title" class="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+
+            <div class="grid gap-12 lg:grid-cols-[1fr_1.2fr] lg:items-center">
+
+                <div>
+                    <p class="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-amber-700">The Lumen standard</p>
+                    <h2 id="collection-title" class="max-w-md text-4xl leading-tight">Less, but better.</h2>
+                    <p class="mt-6 max-w-md leading-7 text-stone-600">Every Lumen piece is designed in Copenhagen and
+                        made in small batches by partners we know. We choose fabrics for their feel, longevity, and
+                        quiet character.</p><a href="#journal"
+                        class="mt-7 inline-block text-sm font-bold uppercase tracking-[0.16em] underline underline-offset-8">Read
+                        our story</a>
+                </div>
+
+                <figure class="grid grid-cols-2 gap-4 float"><img src="cloth-4.jpg"
+                        alt="Person in a flowing black dress standing beside a sunlit window"
+                        class="mt-12 aspect-[3/4] w-full object-cover float"><img src="cloth-5.jpg"
+                        alt="Model in a neutral-toned tailored outfit outdoors"
+                        class="aspect-[3/4] w-full object-cover">
+
+                </figure>
+
+            </div>
+
+
+        </section>
+
+        <aside id="journal" aria-labelledby="journal-title" class="bg-stone-900 text-stone-50">
+
+            <div
+                class="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-14 sm:flex-row sm:items-center sm:justify-between lg:px-8">
+                <div>
+                    <p class="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-amber-400">From the journal</p>
+                    <h2 id="journal-title" class="text-3xl">A slower way to dress</h2>
+                </div><a href="#journal"
+                    class="whitespace-nowrap border-b border-stone-400 pb-2 text-sm font-semibold hover:border-amber-400 hover:text-amber-400">Read
+                    the journal &rarr;</a>
+            </div>
+
+        </aside>
+
+    </main>
+
+    <footer class="border-t border-stone-200 bg-stone-50">
+        <div class="mx-auto grid max-w-7xl gap-10 px-6 py-12 text-sm lg:grid-cols-3 lg:px-8">
+            <div>
+                <p class="text-lg font-semibold tracking-[0.2em]">LUMEN</p>
+                <p class="mt-3 max-w-xs leading-6 text-stone-500">Considered clothing for everyday living.</p>
+            </div>
+            <nav aria-label="Footer navigation" class="grid grid-cols-2 gap-4 text-stone-600"><a href="#collection"
+                    class="hover:text-stone-900">About us</a><a href="#journal"
+                    class="hover:text-stone-900">Journal</a><a href="#shipping" class="hover:text-stone-900">Shipping &
+                    returns</a><a href="#contact" class="hover:text-stone-900">Contact</a></nav>
+            <address class="not-italic leading-6 text-stone-500"><strong class="font-semibold text-stone-900">Visit our
+                    studio</strong><br>12 Peckham<br>1230 Las Vegas<br><a href="mailto:hello@lumen.studio"
+                    class="underline underline-offset-4">hello@lumen.studio</a></address>
+        </div>
+        <div class="border-t border-stone-200 px-6 py-5 text-center text-xs text-stone-500">&copy; 2026 Lumen Studio.
+            Made with intention.</div>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
